@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+form{
+	width: 96%;
+	max-width: 600px;
+	margin:30px auto; 
+	text-align: center;
+}
+form fieldset{
+    padding: 20px 40px;
+    border: 1px solid purple;
+    border-radius: 15px;
+}
+form legend{
+    text-align: left ;
+    font-family: Arial;
+    font-size: 17px;
+    color: black;
+}
+form input[type=text]{
+    font-family: 'Times New Roman';
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 13px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+form input[type=text]:focus, form select:focus, form textarea:focus{
+	outline: 0;
+}
+form select{
+    font-family: 'Times New Roman';
+    color:black;
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    padding: 10px 13pxs;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+form h4{
+    text-align: left;
+    margin-left: 52px;
+    margin-top: 20px;
+    color: black;
+}
+.input{
+    display: inline-block;
+	text-align: left;
+	margin-top:20px;
+    margin-right: 300px;
+
+}
+.programas{
+    display: inline-block;
+	text-align: left;
+	margin-top:20px;
+    margin-right: 28px;
+}
+.cidadeoption span{
+    margin-left: 13px;
+	font-size: 16px;
+	color: rgb(130,130,130);
+}
+form textarea{
+    font-family: 'Times New Roman';
+    resize: none;
+    border: 1px solid #ccc;
+	margin-top:30px;
+	width: 80%;
+	height: 140px;
+	padding: 10px 13px;
+    border-radius: 10px;
+}
+form input[type=submit]{
+    margin-top: 30px;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border:2px solid rgb(130,130,130);
+	color:white;
+	background-color: rgb(187, 121, 195);
+    border: none;
+    border-radius: 10px;
+}

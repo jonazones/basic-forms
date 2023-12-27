@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Formulário</title>
+        <link href="css/formulario.css" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Preencha com os seus dados</legend>
+                <div><input type="text" name="nome" placeholder="Digite o seu nome"> </div>
+                <div><input type="text" name="email" placeholder="Digite o seu email"> </div>
+                <div><input type="text" name="numero" placeholder="11 91234-5678"> </div>
+            <div>
+                <select name="idadelist">
+                    <option disabled selected>Qual a sua idade?</option>
+                    <option value="10">10 a 13 anos</option>
+                    <option value="14">14 a 17 anos</option>
+                    <option value="18">acima de 18 anos</option>
+                </select>
+            </div>
+            <h4>Você mora em alguma dessas cidades?</h4>
+            <div class="input">
+                <div><input type="radio" name="cidade" value="sao Paulo"/><span> São Paulo</span></div>
+                <div><input type="radio" name="cidade" value="rio de janeiro" /><span> Rio de Janeiro</span></div>
+                <div><input type="radio" name="cidade" value="espiríto santo" /><span> Espiríto Santo</span></div>
+                <div><input type="radio" name="cidade" value="outro" /><span> Outro</span></div>
+            </div>
+            <div>
+            <h4>O que você gosta de assistir?</h4>
+            <div class="programas">
+                <input type="checkbox" name="ver[]" value="Filmes"><span> Filmes</span>
+                <input type="checkbox" name="ver[]" value="Séries"><span> Séries</span>
+                <input type="checkbox" name="ver[]" value="desenhos/animes"><span> desenhos/animes</span>
+                <input type="checkbox" name="ver[]" value="esportes"><span> esportes</span>
+                <input type="checkbox" name="ver[]" value="outros"><span> outros</span>
+            </div>
+            </div>
+            <h4>O que você gosta de fazer no seu tempo livre?</h4>
+            <div>
+                <textarea name="observacao" placeholder="Escreva aqui!"></textarea>
+            </div>
+            <div>
+                <input type="submit" name="acao" value="Enviar">
+            </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
